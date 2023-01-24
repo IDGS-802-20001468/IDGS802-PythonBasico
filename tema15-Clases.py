@@ -45,8 +45,9 @@ def main():
         while operacion != 5:
             obj.menu()
             operacion = int (input())
-            num1 = int(input("Ingresa el primer numero "))
-            num2 = int(input("Ingresa el segundo numero "))
+            if(operacion != 5):
+                num1 = int(input("Ingresa el primer numero "))
+                num2 = int(input("Ingresa el segundo numero "))
                      
             if(operacion == 1):
                 obj.suma(num1, num2)
