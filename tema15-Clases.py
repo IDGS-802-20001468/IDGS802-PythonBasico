@@ -42,10 +42,10 @@ def main():
         os.system('cls')
         obj = OperasBas()   
         operacion = 0
-        while operacion != 5:
+        while operacion < 5:
             obj.menu()
             operacion = int (input())
-            if(operacion != 5):
+            if(operacion < 5):
                 num1 = int(input("Ingresa el primer numero "))
                 num2 = int(input("Ingresa el segundo numero "))
                      
